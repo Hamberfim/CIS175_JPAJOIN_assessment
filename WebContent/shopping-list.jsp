@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Appliance Item Edit/Shopping List</title>
+<title>Appliance Item Edit</title>
 </head>
 <body>
 	<form method="post" action="navigationServlet">
