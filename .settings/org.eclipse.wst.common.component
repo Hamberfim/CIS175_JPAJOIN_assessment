@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Week5_JSPCRUD_assessment">
+    <wb-module deploy-name="CIS175_JPAJOIN_assessment">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
-        <property name="context-root" value="Week5_JSPCRUD_assessment"/>
-        <property name="java-output-path" value="/Week5_JSPCRUD_assessment/target/classes"/>
+        <property name="java-output-path" value="/CIS175_JPAJOIN_assessment/target/classes"/>
+        <property name="context-root" value="CIS175_JPAJOIN_assessment"/>
     </wb-module>
 </project-modules>
