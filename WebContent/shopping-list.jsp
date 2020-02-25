@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Appliance Item Edit</title>
+<title>Week 6 Appliance JPA Join Assessment - Appliance Item Edit</title>
 </head>
 <body>
 	<form method="post" action="navigationServlet">
