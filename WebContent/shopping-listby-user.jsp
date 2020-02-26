@@ -8,7 +8,9 @@
 <title>Appliance User Shopping Lists</title>
 </head>
 <body>
-	<form method="post" action="">
+	<form method="post" action="listNavigationServlet">
+	<fieldset>
+			<legend>Existing User Shopping lists</legend>
 		<table>
 			<c:forEach items="${requestScope.allLists}" var="currentlist">
 				<tr>
@@ -30,12 +32,14 @@
 </c:forEach>
 		</table>
 		<br />
-		<!-- <input type="submit" value="edit" name="doThisToItem">
-		<input type="submit" value="delete" name="doThisToItem">
-		<input type="submit" value="add" name="doThisToItem">  -->
+		
+		<input type="submit" value="add items to existing list" name="doThisToItem">
+		<input type="submit" value="delete user list" name="doThisToItem">
+		<input type="submit" value="add a new user shopping list" name="doThisToItem">
+	</fieldset>
 	</form>
 	<br /><br />
-	<a href="addItemsForListServlet">Create a new user shopping List</a><br /><br />
-	<a href="index.html">Insert a new appliance item</a>
+	<!--<a href="addItemsForListServlet">Create a new user shopping List</a><br /><br /> -->
+	<a href="index.html">Insert a new appliance item in the selectable inventory</a><br /><br />
 </body>
 </html>

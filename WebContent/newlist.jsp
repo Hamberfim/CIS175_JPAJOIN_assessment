@@ -20,6 +20,6 @@
 		</select><br /><br /> 
 		<input type="submit" value="Create List and Add Items">
 	</form><br /> 
-	<a href="index.html">Go add new appliance items instead</a>
+	<a href="index.html">Insert a new appliance item in the selectable inventory</a>
 </body>
 </html>

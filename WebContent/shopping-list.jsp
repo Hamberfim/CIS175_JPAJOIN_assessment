@@ -10,7 +10,7 @@
 <body>
 	<form method="post" action="navigationServlet">
 		<fieldset>
-			<legend>Appliance Item Edit/Shopping List Form:</legend>
+			<legend>Appliance inventory Item Edit Form:</legend>
 			<table>
 				<c:forEach items="${requestScope.allItems}" var="currentitem">
 					<tr>
@@ -26,5 +26,6 @@
 				type="submit" value="add" name="doThisToItem">
 		</fieldset>
 	</form>
+	<br /><br />
 </body>
 </html>
